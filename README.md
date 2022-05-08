@@ -39,4 +39,11 @@ Also develope a web UI and deploye on web server.
 2. This is single page app
 3. Starting with Price Prediction and then below Model Result report and the Analysis report which done in EDA
 4. Tab in navbar: 
-    i. Predict
+    - i. Predict: This will direct to initail page
+    - ii. Model: will direct to the Model Result report
+      - This inlude Model Name
+      - A radio button to see model reports charts
+       - Accuracy score in Guage chart
+       - Feature Importance in Bar chart
+       - KDE plot of Test and Predicted result
+       - Scatterplot of test and predicted result
