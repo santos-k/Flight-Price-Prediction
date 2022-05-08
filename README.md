@@ -38,7 +38,7 @@ Also develope a web UI and deploye on web server.
 1. Navbar on top of page, with Header, logo, some buttons to direct to sections
 2. This is single page app
 3. Starting with Price Prediction and then below Model Result report and the Analysis report which done in EDA
-4. Tab in navbar: 
+4. Tab in navbar: Navbar is fixed on top, it will always visible
     - i. Predict: This will direct to initail page
     - ii. Model: will direct to the Model Result report
       - This inlude Model Name
@@ -47,3 +47,75 @@ Also develope a web UI and deploye on web server.
        - Feature Importance in Bar chart
        - KDE plot of Test and Predicted result
        - Scatterplot of test and predicted result
+     - iii. Analysis: it will redirect to EDA section 
+        - Analysis of Categorical Features in bar chart- Univeriate Anlysis
+           - Radio button to change the category and bar chart
+              - Airline
+              - Source
+              - Destination
+              - Day Name
+              - Month Name
+              - Total_Stops
+        - Analysis of Numerical Features: Bi-variate Analsis
+          - Radio Buttons to change the value and graph
+             - X-Axis: Arrival_Time | Day of Month | Week of Year | Duration | Departure_Time | PriceTotal_Stops
+             - Color: None | Airline | Day Name | Month Name | Total_Stops
+             
+        - Box plot(Outlier detection) of Price: Bi-variate analysis
+          - Radio Buttons to change the chart
+            - Airline | Day Name | Month Name | Total_Stops
+        - More way to visualize Numerical Features : Multi-variate analysis (Scatterplot, X-axis: Price)
+           - Three dropdown for different feature selection
+              - Y-Axis: select any available feature 
+              - Color : select any available feature 
+              - Size  : select any available feature 
+        - Comparing two Categorical Features
+          - Heatmap and crosstab of two categorical features
+          - X-axis/Y-axis
+        - Airport in Map 
+          - All the Source and Destination airport shown in map   
+      - iv. Source Code:
+        - It will redirect to the github repository of this project
+      - v. Profile
+          - it will redirect to My own web profile which is developed in dash. 
+      - vi. More
+          -  Github | Kaggle | Linkedin | About
+
+
+## Data and Code files:
+ 1. app.py: mail python file where all the web ui designed
+ 2. functions.py: some custome fuctions written to override the repeatation of code
+ 3. directory: 'assests/' pictures stored in this assests folder 1. fevicon.ico, 2. sk2.png(logo)
+ 4. df.csv: preprocessed data file for displaying charts in web app
+ 5. test_data.csv: only X_test and y_test  data in this file to display Model report in web app
+ 6. model.pkl: build model packed in it
+ 
+## files for deployment on Heroku:
+   - 1. .gitignore  
+   - 2. Procfile 
+   - 3. requirements.txt
+ 
+ 
+## Snapshots: 
+# Prediction
+![image](https://user-images.githubusercontent.com/40932902/167307425-9180fd9d-3809-4d33-ab1d-5638eb245c5a.png)
+# Model Result Report
+![image](https://user-images.githubusercontent.com/40932902/167307534-5abfc622-a9ce-45c0-a618-ba56dcd1e8d4.png)
+![image](https://user-images.githubusercontent.com/40932902/167307555-1ace5ce4-b91f-4437-89f4-c1b16ecd5dbd.png)
+![image](https://user-images.githubusercontent.com/40932902/167307566-4eb080e4-c33b-4767-86c1-aab848991f09.png)
+![image](https://user-images.githubusercontent.com/40932902/167307575-44bf5c5f-356d-456e-842a-632908aca454.png)
+# EDA Report 
+![image](https://user-images.githubusercontent.com/40932902/167307594-5fdce2b8-0d81-4ccb-a958-65b2c20128e9.png)
+![image](https://user-images.githubusercontent.com/40932902/167307605-900c4b37-ce2f-4693-9033-165c87f91957.png)
+![image](https://user-images.githubusercontent.com/40932902/167307616-ab8eb82e-deca-46d4-9392-30d023dd8691.png)
+![image](https://user-images.githubusercontent.com/40932902/167307629-6dd873f3-3e41-4d1e-9a1a-b2dc9c6e5f74.png)
+![image](https://user-images.githubusercontent.com/40932902/167307634-3989bb4c-fba0-4e8f-9870-fbbdafde35f6.png)
+![image](https://user-images.githubusercontent.com/40932902/167307645-d16b938a-8b05-4388-9cb5-32a4fbe9af79.png)
+![image](https://user-images.githubusercontent.com/40932902/167307658-f336d99c-4b6c-4e08-aba6-83434ca30895.png)
+![image](https://user-images.githubusercontent.com/40932902/167307681-610a58f0-7ad5-46ec-8f4b-b14be2d3f733.png)
+![image](https://user-images.githubusercontent.com/40932902/167307685-7e112fe0-6133-409f-b7df-fb6f9e8e3096.png)
+![image](https://user-images.githubusercontent.com/40932902/167307700-4113319d-96de-41f1-9ecc-25db8374dd9b.png)
+![image](https://user-images.githubusercontent.com/40932902/167307711-46e115dc-de34-4060-bef3-f23b7df25021.png)
+
+
+
