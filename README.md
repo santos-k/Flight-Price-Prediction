@@ -33,6 +33,22 @@ Also develope a web UI and deploye on web server.
  8. selected the best final model
  9. Web UI designing: three section 1. Prediction, 2. Model Report, 3. Analysis Report
  10. Deployment
+ 
+ ## Feature Creation:
+ 1. from **Date_of_Journey**
+    - Month
+    - Day
+    - Week of year
+    - day name
+  2. from **Dep_TIme**
+     - Departure Hour
+     - Departure Min
+  3. from **Arrival_Time**
+     - Arrival_Hour
+     - Arrival_Min
+  4. from **Duration**
+     - Duration_Hour
+     - Duration_Min
 
 # Feature of the this project:
 1. Navbar on top of page, with Header, logo, some buttons to direct to sections
@@ -88,7 +104,7 @@ Also develope a web UI and deploye on web server.
  3. directory: 'assests/' pictures stored in this assests folder 1. fevicon.ico, 2. sk2.png(logo)
  4. df.csv: preprocessed data file for displaying charts in web app
  5. test_data.csv: only X_test and y_test  data in this file to display Model report in web app
- 6. model.pkl: build model packed in it
+ 6. model.pkl: built model packed in it, unable to upload here due big size issue, download from ![Kaggle](https://www.kaggle.com/code/kuchhbhi/flight-price-prediction-multiple-models)
  
 ## files for deployment on Heroku:
    - 1. .gitignore  
@@ -98,12 +114,17 @@ Also develope a web UI and deploye on web server.
  
 ## Snapshots: 
 # Prediction
-![image](https://user-images.githubusercontent.com/40932902/167307425-9180fd9d-3809-4d33-ab1d-5638eb245c5a.png)
+![image](https://user-images.githubusercontent.com/40932902/167579924-63502ca7-138a-427b-bcc3-ed9b4d8b1bce.png)
+![image](https://user-images.githubusercontent.com/40932902/167580002-d0f9373d-8f61-4821-9b6c-55f81b95ac0f.png)
+![image](https://user-images.githubusercontent.com/40932902/167580185-3f696244-3739-425a-9157-3bd0fda527f0.png)
+
 # Model Result Report
-![image](https://user-images.githubusercontent.com/40932902/167307534-5abfc622-a9ce-45c0-a618-ba56dcd1e8d4.png)
-![image](https://user-images.githubusercontent.com/40932902/167307555-1ace5ce4-b91f-4437-89f4-c1b16ecd5dbd.png)
-![image](https://user-images.githubusercontent.com/40932902/167307566-4eb080e4-c33b-4767-86c1-aab848991f09.png)
-![image](https://user-images.githubusercontent.com/40932902/167307575-44bf5c5f-356d-456e-842a-632908aca454.png)
+![image](https://user-images.githubusercontent.com/40932902/167579328-72dc10ef-8b9c-4c90-9734-82ce868096e9.png)
+![image](https://user-images.githubusercontent.com/40932902/167579477-8ded0820-e0bd-4c63-92fb-48eee8e8ffaa.png)
+![image](https://user-images.githubusercontent.com/40932902/167579564-64a421c4-e3f1-4d4f-add0-d9f02ac2c956.png)
+![image](https://user-images.githubusercontent.com/40932902/167579663-75389d36-ddf6-4cea-865a-0e70f54bfc22.png)
+![image](https://user-images.githubusercontent.com/40932902/167579767-97f6ae47-0b2b-417c-840d-dd0d1bd26026.png)
+
 # EDA Report 
 ![image](https://user-images.githubusercontent.com/40932902/167307594-5fdce2b8-0d81-4ccb-a958-65b2c20128e9.png)
 ![image](https://user-images.githubusercontent.com/40932902/167307605-900c4b37-ce2f-4693-9033-165c87f91957.png)
