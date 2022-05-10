@@ -104,7 +104,7 @@ Also develope a web UI and deploye on web server.
  3. directory: 'assests/' pictures stored in this assests folder 1. fevicon.ico, 2. sk2.png(logo)
  4. df.csv: preprocessed data file for displaying charts in web app
  5. test_data.csv: only X_test and y_test  data in this file to display Model report in web app
- 6. model.pkl: built model packed in it, unable to upload here due big size issue, download from [Kaggle](https://www.kaggle.com/code/kuchhbhi/flight-price-prediction-multiple-models)
+ 6. model.pkl: built model packed in it, unable to upload here due big size issue, download from [Kaggle](https://www.kaggle.com/code/kuchhbhi/flight-price-prediction-above-90/notebook)
  
 ## files for deployment on Heroku:
    - 1. .gitignore  
