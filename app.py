@@ -42,20 +42,20 @@ app.layout = dbc.Container([
         children=[
             dbc.NavItem(html.A([dbc.CardImg(src='assets/sk2.png', style={'width': '70px', 'height': '30px'}
                                             , className='mx-5 my-1')],
-                               href='https://isantosh-portfolio.herokuapp.com/')),
+                               href='https://santos-k.github.io')),
             dbc.NavItem(dbc.NavLink(html.A("Predict", href="#", className="me-1 text-decoration-none fs-5"))),
             dbc.NavItem(dbc.NavLink(html.A("Model", href="#model-report", className="me-1 text-decoration-none fs-5"))),
             dbc.NavItem(dbc.NavLink(html.A("Analysis", href="#eda", className="me-1 text-decoration-none fs-5"))),
-            dbc.NavItem(dbc.NavLink(html.A("Source Code", href="https://github.com/withusanty/Flight-Price-Prediction",
+            dbc.NavItem(dbc.NavLink(html.A("Source Code", href="https://github.com/santos-k/Flight-Price-Prediction",
                                            className="me-1 text-decoration-none fs-5"))),
-            dbc.NavItem(dbc.NavLink(html.A("Profile", href="https://isantosh-portfolio.herokuapp.com/",
+            dbc.NavItem(dbc.NavLink(html.A("Profile", href="https://santos-k.github.io",
                                            className="me-1 text-decoration-none fs-5"))),
             dbc.DropdownMenu(
                 children=[
                     # dbc.DropdownMenuItem("Analysis", header=True),
-                    dbc.DropdownMenuItem("Linkedin", href='https://www.linkedin.com/in/santy707/'),
+                    dbc.DropdownMenuItem("Linkedin", href='https://www.linkedin.com/in/santos-k/'),
                     dbc.DropdownMenuItem("Kaggle", href='https://www.kaggle.com/kuchhbhi'),
-                    dbc.DropdownMenuItem("Github", href='https://github.com/withusanty'),
+                    dbc.DropdownMenuItem("Github", href='https://github.com/santos-k'),
                     dbc.DropdownMenuItem(html.A("About", href='#about', className='me-1 text-decoration-none')),
                 ],
 
