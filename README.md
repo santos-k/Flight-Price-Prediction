@@ -67,6 +67,14 @@ Analysis and Model training code uploaded on [Kaggle](https://www.kaggle.com/cod
 
 ## To deploy this project on Google Cloud Platform (GCP), you will need to follow these steps:
 
+```
+gcloud builds submit --tag gcr.io/flightjet/flightjet --project=flightjet
+```
+```
+gcloud run deploy --image gcr.io/flightjet/flightjet --platform=managed --project=flightjet --allow-unauthenticated
+```
+
+
 1. Create a new project on GCP by going to the GCP Console (https://console.cloud.google.com/) and selecting "Select a Project" or "Create Project".
 2. Create a virtual machine instance by going to the GCP Console, selecting "Compute Engine", and clicking on "Create Instance".
 3. Choose the appropriate machine type and configure it as per your requirements. Make sure to open the required ports for the application.
