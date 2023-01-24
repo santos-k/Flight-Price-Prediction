@@ -1,18 +1,30 @@
-## Flight-Price-Prediction
-[Live](https://flightjet-iftciffw4q-em.a.run.app/)
+<p align="center">
+    <img src="https://user-images.githubusercontent.com/40932902/213074591-8d20668b-94a4-42bc-9844-12129444053d.png">
+    <h1 align="center">Flight Price Prediction WebApp</h1>
+</p>
 
-![image](https://user-images.githubusercontent.com/40932902/213074591-8d20668b-94a4-42bc-9844-12129444053d.png)
+<p align="center">
+    <a href="https://flightjet-iftciffw4q-em.a.run.app/">View Demo</a>
+    ·
+    <a href="https://github.com/santos-k/Flight-Price-Prediction/issues/new/choose">Report Bug</a>
+    ·
+    <a href="https://github.com/anuraghazra/Flight-Price-Prediction/issues/new/choose">Request Feature</a>
+    ·
+    <a href="https://github.com/anuraghazra/Flight-Price-Prediction/discussions">Ask Question</a>
+  </p>
 
-[![Python 3.10](https://img.shields.io/badge/python-3.10-blue.svg)](https://www.python.org/downloads/release/python-310/)
-[![Dash 2.7](https://img.shields.io/badge/Dash-2.7-blue)](https://dash.plotly.com/)
-[![Plolty 5.11](https://img.shields.io/badge/Plotly-5.11-blue)](https://pypi.org/project/plotly/)
-![GitHub repo size](https://img.shields.io/github/repo-size/santos-k/Flight-Price-Prediction?logo=github) 
-![GitHub Repo stars](https://img.shields.io/github/stars/santos-k/Flight-Price-Prediction?style=social) 
-![GitHub watchers](https://img.shields.io/github/watchers/santos-k/Flight-Price-Prediction?style=social) 
-![GitHub followers](https://img.shields.io/github/followers/santos-k?style=social) 
-![Bower](https://img.shields.io/bower/l/flask) 
+<p align="center">
+  <a href="https://www.python.org/downloads/release/python-310/"><img src="http://ForTheBadge.com/images/badges/made-with-python.svg"></a>
+</p>
 
+<p align="center">
+    <img src="https://img.shields.io/badge/Flask-2.2-blue">
+    <img src="https://img.shields.io/badge/Plotly-5.11-blue">
+    <img src="https://img.shields.io/github/repo-size/santos-k/Flight-Price-Prediction?logo=github">
+    <img src="https://img.shields.io/bower/l/flask">
+</p>
 
+# Overview
 
 This project is an end-to-end solution for predicting flight booking prices based on a given dataset. The project is developed and designed using Python, and it includes several key features and functionalities:
 
